@@ -1,52 +1,48 @@
-# **InventoryManagement - Gestion des Inventaires pour le Ministère de l'Enseignement Supérieur**
+# **InventoryManagement - Inventory Management for the Ministry of Higher Education**
 
-![Bannière du projet](https://via.placeholder.com/1200x400)  
-*(Remplacez par une image représentative de votre projet.)*
-
----
-
-## **Description du projet**
-**InventoryManagement** est une application web développée avec Django pour simplifier et optimiser la gestion des inventaires au sein du ministère de l'Enseignement supérieur. Ce projet permet de centraliser le suivi des ressources matérielles, de gérer les stocks, de générer des rapports et d'améliorer la traçabilité des équipements.
+![Project Banner](GestionVentes/static/assets/images/mes.png)  
+*(Replace with an image representative of your project.)*
 
 ---
 
-## **Fonctionnalités principales**
-- **Gestion des materiels** : Ajout, modification et suppression des ressources matérielles.
-- **Suivi des stocks** : Visualisation des quantités disponibles .
-- **Reporting** : Génération de rapports détaillés sur l'état des stocks.
-- **Authentification** : Sécurisation de l'accès avec un système de connexion.
-- **Interface intuitive** : Tableau de bord interactif pour une gestion simplifiée.
+## **Project Description**
+**InventoryManagement** is a web application developed with Django to simplify and optimize inventory management within the Ministry of Higher Education. This project centralizes the tracking of material resources, manages stock, generates reports, and improves the traceability of equipment.
 
 ---
 
-## **Captures d'écran**
-![Page d'accueil](https://via.placeholder.com/600x400)  
-*(Ajoutez des captures d'écran de l'interface pour illustrer le projet.)*
-
-![Gestion des stocks](https://via.placeholder.com/600x400)  
-*(Exemple : Une page montrant la liste des articles en stock.)*
-
----
-
-## **Prérequis**
-Avant de pouvoir exécuter ce projet, assurez-vous d'avoir installé les éléments suivants sur votre machine :
-- **Python 3.8 ou supérieur**
-- **Pip** (gestionnaire de paquets Python)
-- **Git** (pour cloner le dépôt)
+## **Key Features**
+- **Material Management**: Add, modify, and delete material resources.
+- **Stock Tracking**: View available quantities.
+- **Reporting**: Generate detailed reports on stock status.
+- **Authentication**: Secure access with a login system.
+- **Intuitive Interface**: Interactive dashboard for simplified management.
 
 ---
 
-## **Installation et exécution du projet**
+## **Screenshots**
+![Homepage](GestionVentes/static/assets/images/demo.png)  
 
-### **1. Cloner le dépôt**
-Ouvrez un terminal et exécutez la commande suivante pour cloner le dépôt :
+---
+
+## **Prerequisites**
+Before running this project, ensure you have the following installed on your machine:
+- **Python 3.8 or higher**
+- **Pip** (Python package manager)
+- **Git** (to clone the repository)
+
+---
+
+## **Installation and Project Execution**
+
+### **1. Clone the Repository**
+Open a terminal and run the following command to clone the repository:
 ```bash
-git clone https://github.com/votre-utilisateur/InventoryManagement.git
+git clone https://github.com/your-username/InventoryManagement.git
 cd InventoryManagement
 python -m venv venv
-**Sur Windows :**
+**on Windows :**
 venv/bin/activate
-**Sur macOS/Linux :**
+**on macOS/Linux :**
 source venv/bin/activate
 
 pip install -r requirements.txt
