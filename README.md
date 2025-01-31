@@ -1,7 +1,6 @@
 # **InventoryManagement - Inventory Management for the Ministry of Higher Education**
 
 ![Project Banner](GestionVentes/static/assets/images/mes.png)  
-*(Replace with an image representative of your project.)*
 
 ---
 
@@ -34,8 +33,6 @@ Before running this project, ensure you have the following installed on your mac
 
 ## **Installation and Project Execution**
 
-### **1. Clone the Repository**
-Open a terminal and run the following command to clone the repository:
 ```bash
 git clone https://github.com/your-username/InventoryManagement.git
 cd InventoryManagement
